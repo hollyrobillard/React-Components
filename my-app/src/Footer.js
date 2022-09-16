@@ -1,8 +1,8 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import "./Header.css"
+import "./Footer.css"
 
-export default function Header() {
+export default function Footer() {
     const coffees = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     const coffeeIcons = coffees.map((index) => 
         <span className="coffee" key={index}>
@@ -11,7 +11,7 @@ export default function Header() {
    );
 
     return(
-        <div className="Header">
+        <div className="Footer">
             {coffeeIcons}
         </div>
     )
