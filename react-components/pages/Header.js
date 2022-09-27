@@ -3,6 +3,12 @@ import Coffees from './Coffees';
 
 export default function Header() {
     return(
-        <Coffees />
+        <header className = "Header">
+            <Coffees />
+            <div className="Title">
+                React Components
+            </div>
+            <hr />
+        </header>
     )
 }

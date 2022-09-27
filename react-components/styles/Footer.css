@@ -1,0 +1,19 @@
+hr {
+    color: white;
+}
+
+.footer-icons {
+    padding: 10px;
+}
+
+.footer-icon {
+    padding: 0 10px;
+}
+
+.icon {
+    color: white;
+}
+
+.icon:hover {
+    color: burlywood!important;
+}
