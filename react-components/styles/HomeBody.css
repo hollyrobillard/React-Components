@@ -1,3 +1,23 @@
 .HomeBody {
     color: white;
 }
+
+.HomeBody h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.HomeBody h2 {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.HomeBody .welcome-subtext {
+    display: inline-block;
+    width: 15%;
+    padding: 30px 0;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
