@@ -10,6 +10,11 @@ export default function HomeBody() {
                 <p className="welcome-subtext text-center">style it</p>
                 <p className="welcome-subtext text-end">make it yours</p>
             </article>
+            <article className="callToAction">
+                <h2>Ready to find the right code for you?</h2>
+                <button className="px-3 d-block mx-auto my-3">See Standard Code</button>
+                <button className="px-3 d-block mx-auto my-3">See Code with Bootstrap</button>
+            </article>
         </section>
     )
 }
